@@ -6,3 +6,4 @@ Write a script that compiles a C file and creates an executable named
 Write a C program that prints exactly
 Write a C program that prints exactly
 compiles sizes of computer
+script generates aseembly c ode
