@@ -7,3 +7,4 @@ Write a C program that prints exactly
 Write a C program that prints exactly
 compiles sizes of computer
 script generates aseembly c ode
+script prints strings
