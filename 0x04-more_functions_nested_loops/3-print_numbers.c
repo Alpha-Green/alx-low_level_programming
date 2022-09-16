@@ -1,18 +1,20 @@
-es (14 sloc) 183 Bytes
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_numbers - prints integer from 0 to 9
- */
+*print_numbers - function that print all numbers from
+*0 to 9
+*
+*Return: returns nothing
+*/
 
 void print_numbers(void)
 {
-	int i = 0;
+	int n;
 
-	while (i <= 9)
+	for (n = 48; n < 58; n++)
 	{
-		_putchar('0' + i);
-		i++;
+		putchar(n);
 	}
-	_putchar('\n');
+	putchar(10);
 }
